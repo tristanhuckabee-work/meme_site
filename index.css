@@ -10,7 +10,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 .card {
     /* background-color: red; */
