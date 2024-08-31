@@ -8,15 +8,21 @@ body {
 #team {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 10px;
 }
 .card {
     /* background-color: red; */
+    width: 200px;
     box-shadow: 0 0 30px #999;
     border-radius: 5px;
     text-align: center;
+}
+.card p {
+    text-align: justify;
+    padding: 10px;
+    margin: 0;
 }
 .card img {
     width: 200px;
