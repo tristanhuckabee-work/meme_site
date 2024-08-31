@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.card {
+    /* background-color: red; */
+    box-shadow: 0 0 30px #999;
+    border-radius: 5px;
+    text-align: center;
+}
+.card img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px 5px 0 0;
+}
