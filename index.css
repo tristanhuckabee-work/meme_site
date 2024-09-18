@@ -1,10 +1,35 @@
 body {
     box-sizing: border-box;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     font-family: sans-serif;
+    margin: 0;
+    margin-top: 200px;
+    padding: 0 10vw;
+}
+header {
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    gap: 50px;
+    margin: 0;
+    background-color: white;
+    border-bottom: 3px solid #ff86ff;
+}
+#logo {
+    width: 300px;
+}
+header a {
+    color: #ff86ff;
+    text-decoration: none;
+    font-size: 2em;
 }
 #team {
     display: flex;
@@ -12,7 +37,8 @@ body {
     align-items: flex-start;
     justify-content: center;
     gap: 100px;
-    background-color: rgb(255, 0, 174);
+    background-color: #ff86ff;
+    border-radius: 10px;;
     width: 100%;
     padding: 20px;
 }
