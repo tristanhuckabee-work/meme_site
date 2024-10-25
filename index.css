@@ -45,7 +45,12 @@ section {
 }
 section h2 {line-height: 0.5;}
 #team h2, #team b { color:var(--pinky) }
-#projects h2 { color:var(--white) }
+#projects {
+    background-image: url("./assets/dots.svg");
+    background-size: 5%;
+    background-repeat: repeat;
+}
+#projects h2 {color:var(--white)}
 #team {
     align-items: flex-start;
     background-color: var(--black);
